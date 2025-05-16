@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./public/favicon1.png"
+      type="image/x-icon"
+    />
+    <title>Periodic Table</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+      b {
+        font-size: 14px;
+        display: block;
+        margin-block: 2px;
+      }
+      body {
+        padding-inline: 20px;
+      }
+      h1 {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 0px;
+        font-size: 25px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: auto;
+      }
+
+      td {
+        max-width: 50px;
+        border: 2px solid black;
+        font-size: 12px;
+        padding: 2px 4px;
+        text-align: center;
+      }
+      .empty {
+        border: none;
+        vertical-align: bottom;
+      }
+      .Lanthanides {
+        vertical-align: middle;
+      }
+      .link {
+        text-align: start;
+      }
+
+      .border {
+        border-top: 2px solid #000;
+        height: 10px;
+        vertical-align: bottom;
+      }
+      .left {
+        border-right: 2px solid #000;
+      }
+      .right {
+        border-left: 2px solid #000;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        <h1>Periodic Table of the Elements</h1>
+      </caption>
+      <!-- Row No 1 -->
+      <tr>
+        <td class="empty">1A</td>
+        <td class="empty" colspan="11"></td>
+        <td colspan="3" class="empty link">
+          <h3><a href="#">https://chemistry.about.com</a></h3>
+          <h3>@2012 Todd Helmenstine</h3>
+          <h3>About Chemistry</h3>
+        </td>
+        <td colspan="2" class="empty"></td>
+        <td class="empty">8A</td>
+      </tr>
+      <!--  Row No 2  -->
+      <tr>
+        <td>1 <b>H</b> 1.07</td>
+        <td class="empty">2A</td>
+        <td class="empty" colspan="10"></td>
+        <td class="empty">3A</td>
+        <td class="empty">4A</td>
+        <td class="empty">5A</td>
+        <td class="empty">6A</td>
+        <td class="empty">7A</td>
+        <td>2 <b>He</b> 4.002</td>
+      </tr>
+      <!--  Row No 3 -->
+
+      <tr>
+        <td>3 <b>Li</b> 6.941</td>
+        <td>4 <b>Be</b> 9.012</td>
+        <td class="empty" colspan="10"></td>
+        <td>5 <b>B</b> 10.081</td>
+        <td>6 <b>C</b> 12.107</td>
+        <td>7 <b>N</b> 14.006</td>
+        <td>8 <b>O</b> 15.994</td>
+        <td>9 <b>F</b> 18.998</td>
+        <td>10 <b>Ne</b> 20.179</td>
+      </tr>
+      <!--  Row No 4-->
+      <tr>
+        <td>11 <b>Na</b>22.989</td>
+        <td>12 <b>Mg</b> 24.305</td>
+        <td class="empty">3B</td>
+        <td class="empty">4B</td>
+        <td class="empty">5B</td>
+        <td class="empty">6B</td>
+        <td class="empty">7B</td>
+        <td class="empty"><div class="border right"></div></td>
+        <td class="empty">8B</td>
+        <td class="empty"><div class="border left"></div></td>
+        <td class="empty">1B</td>
+        <td class="empty">2B</td>
+        <td>13 <b>Al</b> 26.981</td>
+        <td>14 <b>Si</b> 28.085</td>
+        <td>15<b>P</b> 30.973</td>
+        <td>16<b>S</b> 32.065</td>
+        <td>17<b>Cl</b> 35.453</td>
+        <td>18 <b>Ar</b> 39.948</td>
+      </tr>
+      <!-- Row No 5 -->
+      <tr>
+        <td>19 <b>K</b> 39.098</td>
+        <td>20 <b>Ca</b>40.078</td>
+        <td>21 <b>Sc</b>44.956</td>
+        <td>22 <b>Ti</b>47.867</td>
+        <td>23 <b>V</b>50.942</td>
+        <td>24 <b>Cr</b>51.996</td>
+        <td>25 <b>Mn</b> 54.938</td>
+        <td>26 <b>Fe</b>55.845</td>
+        <td>27 <b>Co</b>58.933</td>
+        <td>28 <b>Ni</b> 58.693</td>
+        <td>29 <b>Cu</b>63.546</td>
+        <td>30 <b>Zn</b>65.38</td>
+        <td>31 <b>Ga</b> 69.723</td>
+        <td>32 <b>Ge</b>72.63</td>
+        <td>33 <b>As</b>74.922</td>
+        <td>34 <b>Se</b>78.96</td>
+        <td>35 <b>Br</b>79.904</td>
+        <td>36 <b>Kr</b>83.798</td>
+      </tr>
+      <!--  Row No 6-->
+      <tr>
+        <td>37 <b>Rb</b> 85.4678</td>
+        <td>38 <b>Sr</b> 87.62</td>
+        <td>39 <b>Y</b> 88.90584</td>
+        <td>40 <b>Zr</b> 91.224</td>
+        <td>41 <b>Nb</b> 92.90637</td>
+        <td>42 <b>Mo</b> 95.95</td>
+        <td>43 <b>Tc</b> [98]</td>
+        <td>44 <b>Ru</b> 101.07</td>
+        <td>45 <b>Rh</b> 102.90550</td>
+        <td>46 <b>Pd</b> 106.42</td>
+        <td>47 <b>Ag</b> 107.8682</td>
+        <td>48 <b>Cd</b> 112.414</td>
+        <td>49 <b>In</b> 114.818</td>
+        <td>50 <b>Sn</b> 118.710</td>
+        <td>51 <b>Sb</b> 121.760</td>
+        <td>52 <b>Te</b> 127.60</td>
+        <td>53 <b>I</b> 126.90447</td>
+        <td>54 <b>Xe</b> 131.293</td>
+      </tr>
+
+      <!--  Row No 7 -->
+      <tr>
+        <td>55 <b>Cs</b> 132.90545</td>
+        <td>56 <b>Ba</b> 137.327</td>
+        <td>57-71 <b></b> Lanthanides</td>
+        <td>72 <b>Hf</b> 178.49</td>
+        <td>73 <b>Ta</b> 180.94788</td>
+        <td>74 <b>W</b> 183.84</td>
+        <td>75 <b>Re</b> 186.207</td>
+        <td>76 <b>Os</b> 190.23</td>
+        <td>77 <b>Ir</b> 192.217</td>
+        <td>78 <b>Pt</b> 195.084</td>
+        <td>79 <b>Au</b> 196.966569</td>
+        <td>80 <b>Hg</b> 200.592</td>
+        <td>81 <b>Tl</b> 204.38</td>
+        <td>82 <b>Pb</b> 207.2</td>
+        <td>83 <b>Bi</b> 208.98040</td>
+        <td>84 <b>Po</b> [209]</td>
+        <td>85 <b>At</b> [210]</td>
+        <td>86 <b>Rn</b> [222]</td>
+      </tr>
+
+      <!-- Row No 8 -->
+      <tr>
+        <td>87 <b>Fr</b> [223]</td>
+        <td>88 <b>Ra</b> [226]</td>
+        <td>89-103 <b></b> Actinides</td>
+        <td>104 <b>Rf</b> [267]</td>
+        <td>105 <b>Db</b> [270]</td>
+        <td>106 <b>Sg</b> [271]</td>
+        <td>107 <b>Bh</b> [270]</td>
+        <td>108 <b>Hs</b> [277]</td>
+        <td>109 <b>Mt</b> [278]</td>
+        <td>110 <b>Ds</b> [281]</td>
+        <td>111 <b>Rg</b> [282]</td>
+        <td>112 <b>Cn</b> [285]</td>
+        <td>113 <b>Nh</b> [286]</td>
+        <td>114 <b>Fl</b> [289]</td>
+        <td>115 <b>Mc</b> [290]</td>
+        <td>116 <b>Lv</b> [293]</td>
+        <td>117 <b>Ts</b> [294]</td>
+        <td>118 <b>Og</b> [294]</td>
+      </tr>
+
+      <!-- create empty row for space -->
+      <tr>
+        <td class="empty" colspan="18"><br /></td>
+      </tr>
+      <!--  Row No 9 -->
+      <tr>
+        <td colspan="3" class="Lanthanides empty"><b>Lanthanides</b></td>
+
+        <td>57 <b>La</b> 138.905</td>
+        <td>58 <b>Ce</b> 140.116</td>
+        <td>59 <b>Pr</b> 140.907</td>
+        <td>60 <b>Nd</b> 144.242</td>
+        <td>61 <b>Pm</b> [145]</td>
+        <td>62 <b>Sm</b> 150.36</td>
+        <td>63 <b>Eu</b> 151.964</td>
+        <td>64 <b>Gd</b> 157.25</td>
+        <td>65 <b>Tb</b> 158.925</td>
+        <td>66 <b>Dy</b> 162.5</td>
+        <td>67 <b>Ho</b> 164.930</td>
+        <td>68 <b>Er</b> 167.259</td>
+        <td>69 <b>Tm</b> 168.934</td>
+        <td>70 <b>Yb</b> 173.04</td>
+        <td>71 <b>Lu</b> 175.00</td>
+      </tr>
+
+      <!--  Row No 10 -->
+      <tr>
+        <td colspan="3" class="Lanthanides empty"><b>Actinides</b></td>
+
+        <td>89 <b>Ac</b> 227</td>
+        <td>90 <b>Th</b> 232.038</td>
+        <td>91 <b>Pa</b> 231.035</td>
+        <td>92 <b>U</b> 238.029</td>
+        <td>93 <b>Np</b> 237</td>
+        <td>94 <b>Pu</b> 244</td>
+        <td>95 <b>Am</b> 243</td>
+        <td>96 <b>Cm</b> 247</td>
+        <td>97 <b>Bk</b> 247</td>
+        <td>98 <b>Cf</b> 251</td>
+        <td>99 <b>Es</b> 252</td>
+        <td>100 <b>Fm</b> 257</td>
+        <td>101 <b>Md</b> 258</td>
+        <td>102 <b>No</b> 259</td>
+        <td>103 <b>Lr</b> 262</td>
+      </tr>
+    </table>
+  </body>
+</html>
